@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TallerManillas</string>
+    <string name="title">Bracelet\'s Store</string>
+    <string name="lbl_material">Material</string>
+    <string name="lbl_pendant">Pendant</string>
+    <string name="lbl_type_pendant">Type of Pendant</string>
+    <string name="lbl_amount">Amount</string>
+    <string name="btn_quote">Quote</string>
+    <string name="btn_clear">Clear</string>
+    <string name="lbl_currency">Currency</string>
 </resources>

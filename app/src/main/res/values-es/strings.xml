@@ -9,4 +9,14 @@
     <string name="btn_quote">Cotizar</string>
     <string name="btn_clear">Limpiar</string>
     <string name="lbl_currency">Moneda</string>
+    <string name="leather">CUERO</string>
+    <string name="rope">CUERDA</string>
+    <string name="hammer">MARTILLO</string>
+    <string name="anchor">ANCLA</string>
+    <string name="gold">ORO</string>
+    <string name="pink_gold">ORO ROSADO</string>
+    <string name="nickel">NÍQUEL</string>
+    <string name="silver">PLATA</string>
+    <string name="cop">COP</string>
+    <string name="usd">USD</string>
 </resources>

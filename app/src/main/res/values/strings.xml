@@ -8,4 +8,39 @@
     <string name="btn_quote">Quote</string>
     <string name="btn_clear">Clear</string>
     <string name="lbl_currency">Currency</string>
+    
+    <string name="leather">LEATHER</string>
+    <string name="rope">ROPE</string>
+    <string name="hammer">HAMMER</string>
+    <string name="anchor">ANCHOR</string>
+    <string name="gold">GOLD</string>
+    <string name="pink_gold">PINK GOLD</string>
+    <string name="nickel">NICKEL</string>
+    <string name="silver">SILVER</string>
+
+
+    <string name="usd">USD</string>
+    <string name="cop">COP</string>
+
+    <string-array name="mat_opts">
+        <item>@string/leather</item>
+        <item>@string/rope</item>
+    </string-array>
+
+    <string-array name="pend_opts">
+        <item>@string/anchor</item>
+        <item>@string/hammer</item>
+    </string-array>
+
+    <string-array name="type_pend_opts">
+        <item>@string/gold</item>
+        <item>@string/nickel</item>
+        <item>@string/pink_gold</item>
+        <item>@string/silver</item>
+    </string-array>
+
+    <string-array name="cur_opts">
+        <item>@string/usd</item>
+        <item>@string/cop</item>
+    </string-array>
 </resources>

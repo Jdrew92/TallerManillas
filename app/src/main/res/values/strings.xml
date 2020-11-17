@@ -6,7 +6,7 @@
     <string name="lbl_type_pendant">Type of Pendant</string>
     <string name="lbl_amount">Amount</string>
     <string name="btn_quote">Quote</string>
-    <string name="btn_clear">Clear</string>
+    <string name="btn_reset">Reset</string>
     <string name="lbl_currency">Currency</string>
     
     <string name="leather">LEATHER</string>

@@ -50,7 +50,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/lblJewel"
+            android:id="@+id/lblPendant"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -155,6 +155,7 @@
         android:layout_marginBottom="50sp"
         android:paddingTop="10sp"
         android:paddingBottom="10sp"
+        android:textAlignment="center"
         android:textColor="#A34C32"
         android:textSize="36sp"
         android:textStyle="bold" />
@@ -172,6 +173,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#E3E3E3"
+            android:onClick="quote"
             android:paddingTop="20sp"
             android:paddingBottom="20sp"
             android:text="@string/btn_quote"
@@ -184,9 +186,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#E65100"
+            android:onClick="reset"
             android:paddingTop="20sp"
             android:paddingBottom="20sp"
-            android:text="@string/btn_clear"
+            android:text="@string/btn_reset"
             android:textColor="#FFFFFF"
             android:textSize="18sp" />
     </LinearLayout>

@@ -7,7 +7,7 @@
     <string name="lbl_type_pendant">Tipo de Dije</string>
     <string name="lbl_amount">Cantidad</string>
     <string name="btn_quote">Cotizar</string>
-    <string name="btn_clear">Limpiar</string>
+    <string name="btn_reset">Reset</string>
     <string name="lbl_currency">Moneda</string>
     <string name="leather">CUERO</string>
     <string name="rope">CUERDA</string>

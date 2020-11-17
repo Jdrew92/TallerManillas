@@ -21,6 +21,7 @@
 
     <string name="usd">USD</string>
     <string name="cop">COP</string>
+    <string name="empty_error">Type in a number</string>
 
     <string-array name="mat_opts">
         <item>@string/leather</item>

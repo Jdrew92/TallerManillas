@@ -19,4 +19,5 @@
     <string name="silver">PLATA</string>
     <string name="cop">COP</string>
     <string name="usd">USD</string>
+    <string name="empty_error">Digíte un número</string>
 </resources>

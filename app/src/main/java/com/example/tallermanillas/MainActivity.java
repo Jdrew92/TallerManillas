@@ -60,15 +60,21 @@ public class MainActivity extends AppCompatActivity {
         pendant = pendantOpts.getSelectedItemPosition();
         type = type_pendantOpts.getSelectedItemPosition();
         currency = currencyOpts.getSelectedItemPosition();
-        value = Integer.valueOf(amount.getText().toString());
 
-        quote = quote(material, pendant, type, value);
+        if (amount.getText().toString().isEmpty()){
+            amount.setError(getString(R.string.empty_error));
+        } else {
+            value = Integer.valueOf(amount.getText().toString());
+            quote = quote(material, pendant, type, value);
 
-        if (currency == 1){
-            quote = quote*conversion;
+            if (currency == 1){
+                quote = quote*conversion;
+            }
+            df = new DecimalFormat("#,###.##");
+            result.setText("$"+df.format(quote));
         }
-        df = new DecimalFormat("#,###.##");
-        result.setText("$"+df.format(quote));
+
+
     }
 
     public int quote(int m, int p, int t, int v) {
